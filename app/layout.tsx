@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "Ben Ancheta",
   description: "Created with v0",
   generator: "v0.dev",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
