@@ -1,4 +1,4 @@
-import Link from "next/link"
+import Link from "next/link";
 
 export default function Page() {
   return (
@@ -10,7 +10,8 @@ export default function Page() {
 
           {/* Description */}
           <p className="text-gray-700 leading-relaxed max-w-lg">
-            Currently providing liquidity to the job market @Sorce. Prev software @Google and consulting @BCG
+            Currently providing liquidity to the job market @Sorce. Prev
+            software @Google and consulting @BCG
           </p>
 
           {/* Contact Section */}
@@ -18,17 +19,26 @@ export default function Page() {
             <h2 className="text-gray-900 font-normal">Contact</h2>
             <div className="space-y-2">
               <div>
-                <Link href="#" className="text-gray-700 underline hover:text-gray-900 transition-colors">
+                <Link
+                  href="https://benanchetaiii.substack.com/"
+                  className="text-gray-700 underline hover:text-gray-900 transition-colors"
+                >
                   Substack
                 </Link>
               </div>
               <div>
-                <Link href="#" className="text-gray-700 underline hover:text-gray-900 transition-colors">
+                <Link
+                  href="https://x.com/benanchetaiii"
+                  className="text-gray-700 underline hover:text-gray-900 transition-colors"
+                >
                   X
                 </Link>
               </div>
               <div>
-                <Link href="#" className="text-gray-700 underline hover:text-gray-900 transition-colors">
+                <Link
+                  href="https://www.linkedin.com/in/bancheta21/"
+                  className="text-gray-700 underline hover:text-gray-900 transition-colors"
+                >
                   LinkedIn
                 </Link>
               </div>
@@ -49,5 +59,5 @@ export default function Page() {
         </div>
       </div>
     </div>
-  )
+  );
 }
