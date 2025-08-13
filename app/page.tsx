@@ -42,6 +42,14 @@ export default function Page() {
                   LinkedIn
                 </Link>
               </div>
+              <div>
+                <Link
+                  href="/portfolio"
+                  className="text-gray-700 underline hover:text-gray-900 transition-colors"
+                >
+                  Investments
+                </Link>
+              </div>
             </div>
           </div>
 
