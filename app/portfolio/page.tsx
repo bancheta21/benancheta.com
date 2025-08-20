@@ -13,7 +13,7 @@ export default function PortfolioPage() {
             <div>
               <p className="font-medium">Sorce</p>
               <p className="text-sm">Stage: Pre-seed</p>
-              <p className="text-sm">Building liquidity to the job market</p>
+              <p className="text-sm">Providing liquidity to the job market</p>
             </div>
           </div>
 
