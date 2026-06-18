@@ -27,12 +27,15 @@ body {
 .quote-compose {
   position: absolute;
   inset: 0;
+  margin: 0;
   padding: 0;
   font-family: "SFMono-Regular", "Menlo", "Consolas", monospace;
   font-size: 2.5px;
-  line-height: 1.05;
-  letter-spacing: -0.02em;
-  text-align: justify;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  word-spacing: -0.04em;
+  text-align: left;
+  white-space: normal;
   word-break: break-all;
   hyphens: none;
   color: transparent;

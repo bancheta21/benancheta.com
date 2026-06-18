@@ -37,8 +37,8 @@ function shuffle<T>(items: T[]) {
 
 function buildTextBlock(quotes: string[], shouldShuffle: boolean) {
   const ordered = shouldShuffle ? shuffle(quotes) : quotes;
-  const stream = ordered.join(" · ") + " · ";
-  return stream.repeat(240);
+  const stream = ordered.join(" ").replace(/\s+/g, " ") + " ";
+  return stream.repeat(240).replace(/\s+/g, " ").trim();
 }
 
 export function TextMaskHero() {
