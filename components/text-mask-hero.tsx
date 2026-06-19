@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { StarField } from "@/components/star-field";
 
 const QUOTES = [
   "If you take all the money and distribute it evenly amongst everyone in the country, in the end, the rich will again be rich, and the poor will again be poor",
@@ -53,6 +54,8 @@ export function TextMaskHero() {
   return (
     <section className="text-mask-hero">
       <div className="quote-compose">{text}</div>
+      <StarField />
+      <h1 className="hero-title">Ben Ancheta</h1>
     </section>
   );
 }
