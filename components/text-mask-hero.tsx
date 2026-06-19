@@ -35,10 +35,12 @@ function shuffle<T>(items: T[]) {
   return copy;
 }
 
+const FIXED_REPEATS = 720;
+
 function buildTextBlock(quotes: string[], shouldShuffle: boolean) {
   const ordered = shouldShuffle ? shuffle(quotes) : quotes;
   const stream = ordered.join(" ").replace(/\s+/g, " ") + " ";
-  return stream.repeat(240).replace(/\s+/g, " ").trim();
+  return stream.repeat(FIXED_REPEATS).replace(/\s+/g, " ").trim();
 }
 
 export function TextMaskHero() {
