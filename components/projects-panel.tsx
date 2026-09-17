@@ -18,7 +18,7 @@ const projects = [
     name: "Postscript",
     href: "https://usepostscript.com",
     icon: "/postscript-favicon.png",
-    description: "An AI inbox.",
+    description: "AI product videos that increase conversions.",
   },
 ];
 
