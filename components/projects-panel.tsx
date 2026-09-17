@@ -8,6 +8,18 @@ const projects = [
     icon: "/mako-favicon.png",
     description: "A Fomo copytrading bot.",
   },
+  {
+    name: "Sprout",
+    href: "https://usesprout.app",
+    icon: "/sprout-favicon.png",
+    description: "Agent-native digital asset management.",
+  },
+  {
+    name: "Postscript",
+    href: "https://usepostscript.com",
+    icon: "/postscript-favicon.png",
+    description: "An AI inbox.",
+  },
 ];
 
 export function ProjectsPanel() {
